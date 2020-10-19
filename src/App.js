@@ -2,20 +2,21 @@ import React from 'react';
 import routes from './routes';
 import Header from './Components/Header/Header';
 import Nav from './Components/Nav/Nav';
-import About from './Components/About/About';
-import Connect from './Components/Connect/Connect';
-import Links from './Components/Links/Links';
-import './App.css';
+import './App.scss';
 
 function App() {
   return (
-    <div className="App">
-     {routes}
-     <Header />
-     <Nav />
-     <About />
-     <Connect />
-     <Links />
+    <div className="header">
+      <Header />
+
+      <div className='nav-bar'>
+        <Nav />
+      </div>
+
+      <div className='routes'>
+        {routes}
+      </div>
+
     </div>
   );
 }

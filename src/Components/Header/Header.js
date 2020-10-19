@@ -1,19 +1,21 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
+import Logo from '../Header/jim.logo.svg'
 
 const Header = () => {
     return(
-        <header>
-            <div className='container'>
-                <div className='wrapper'>
-                    <div className='inner-header'>
+      
+          
+            // <div className='container'>
+            //     <div className='wrapper'>
+            //         <div className='inner-header'>
                         <div className='logo'>
-                            <Link to='/'>Home</Link>
+                            <Link to='/'><img src={Logo} alt='jim-logo'/></Link>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </header>
+            //         </div>
+            //     </div>
+            // </div>
+       
     );
 };
 

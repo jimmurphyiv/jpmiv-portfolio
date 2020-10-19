@@ -1,0 +1,36 @@
+body {
+  background-color: gray;
+}
+
+.header {
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+
+.nav-bar {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  width: 40vw;
+}
+
+.nav-bar ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+.nav-bar a {
+  text-decoration: none;
+  font-weight: 700;
+  color: white;
+  padding: 20%;
+  margin: 0%;
+  border-radius: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav-bar a:hover  {
+  background-color: cadetblue;
+}
