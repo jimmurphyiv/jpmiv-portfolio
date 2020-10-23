@@ -2,7 +2,7 @@ import React from 'react';
 
 const Home = () => {
     return(
-        <div>
+        <div className='welcome-block'>
             <p>
             I'm baby brunch letterpress migas shabby chic, disrupt sriracha tofu jean shorts biodiesel prism tousled umami jianbing. Four dollar toast tacos hot chicken cronut kitsch narwhal cold-pressed PBR&B tilde man braid. Franzen mixtape wayfarers, kinfolk hot chicken cronut squid 90's forage. Brunch banh mi wayfarers af.
 
