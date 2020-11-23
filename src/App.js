@@ -7,6 +7,8 @@ import './App.scss';
 function App() {
   return (
     <div className='App'>
+    
+      
     <div className="header">
       <Header />
 
@@ -18,7 +20,7 @@ function App() {
       <div className='routes'>
         {routes}
       </div>
-
+      
     
     </div>
   );
